@@ -8,24 +8,25 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from dodge device
-$(call inherit-product, device/oneplus/dodge/device.mk)
+# Inherit from ktm device
+$(call inherit-product, device/oneplus/ktm/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_dodge
-PRODUCT_DEVICE := dodge
+PRODUCT_NAME := lineage_ktm
+PRODUCT_DEVICE := ktm
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := CPH2653
+PRODUCT_MODEL := PLQ110
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="qssi_64-user 16 BP2A.250605.015 1783088256304 release-keys" \
-    BuildFingerprint=OnePlus/CPH2653EEA/OP5D55L1:16/BP2A.250605.015/V.R4T3.52da06f-2e397f6-2e81775:user/release-keys \
-    DeviceName=OP5D55L1 \
-    DeviceProduct=CPH2653 \
-    SystemDevice=OP5D55L1 \
-    SystemName=CPH2653
+    BuildDesc="qssi-user 16 BP2A.250605.015 1762272835359 release-keys" \
+    BuildFingerprint=OnePlus/PLQ110/OP6113L1:16/BP2A.250605.015/B.146141d_c644d2_c644d1:user/release-keys \
+    DeviceName=OP6113L1 \
+    DeviceProduct=PLQ110 \
+    SystemDevice=OP6113L1 \
+    SystemName=PLQ110
+    

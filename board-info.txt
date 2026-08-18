@@ -1,1 +1,1 @@
-require board=sun|OP5D0DL1|OP5D55L1
+require board=sun|OP6113L1|PLQ110

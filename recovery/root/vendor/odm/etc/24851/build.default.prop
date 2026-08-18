@@ -1,0 +1,11 @@
+# Device info
+ro.product.odm.device=OP6113L1
+ro.product.odm.model=PLQ110
+ro.product.odm.name=PLQ110
+ro.vendor.oplus.regionmark=CN
+
+# eSIM
+ro.vendor.oplus.radio.esim.feature=2
+
+# NFC
+persist.vendor.nfc.config_file_name=libnfc-mtp-SN220.conf_23893

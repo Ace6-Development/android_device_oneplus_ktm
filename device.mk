@@ -19,8 +19,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 3168
-TARGET_SCREEN_WIDTH := 1440
+TARGET_SCREEN_HEIGHT := 2800
+TARGET_SCREEN_WIDTH := 1272
 
 # Display
 PRODUCT_COPY_FILES += \
@@ -56,11 +56,7 @@ PRODUCT_PACKAGES += \
 
 # Regional properties
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/23821/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/23821/build.default.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/23893/build.EU.prop:$(TARGET_COPY_OUT_ODM)/etc/23893/build.EU.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/23893/build.IN.prop:$(TARGET_COPY_OUT_ODM)/etc/23893/build.IN.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/23893/build.NA.prop:$(TARGET_COPY_OUT_ODM)/etc/23893/build.NA.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/23893/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/23893/build.default.prop
+    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24851/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/24851/build.default.prop 
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
@@ -85,4 +81,4 @@ $(call soong_config_set_bool,OPLUS_LINEAGE_VIBRATOR_HAL,USE_EFFECT_STREAM,true)
 $(call inherit-product, device/oneplus/sm8750-common/common.mk)
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/oneplus/dodge/dodge-vendor.mk)
+$(call inherit-product, vendor/oneplus/ktm/ktm-vendor.mk)
