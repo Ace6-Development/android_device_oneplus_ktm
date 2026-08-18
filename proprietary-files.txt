@@ -1341,7 +1341,6 @@ odm/firmware/uff_spi.mdt
 # NFC
 odm/bin/hw/android.hardware.nfc-service-tms
 odm/etc/libnfc-nci.conf
-odm/etc/init/init.thn31.nfc.rc
 odm/etc/init/init.thn31.se.rc
 odm/etc/init/nfc-service-tms.rc
 odm/etc/nfc/libnfc-tms_RF_EC2.conf_24851
