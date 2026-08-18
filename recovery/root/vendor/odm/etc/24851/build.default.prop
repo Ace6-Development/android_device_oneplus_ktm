@@ -4,8 +4,5 @@ ro.product.odm.model=PLQ110
 ro.product.odm.name=PLQ110
 ro.vendor.oplus.regionmark=CN
 
-# eSIM
-ro.vendor.oplus.radio.esim.feature=2
-
 # NFC
-persist.vendor.nfc.config_file_name=libnfc-mtp-SN220.conf_23893
+persist.vendor.nfc.configFile_name=libnfc-tms_RF_EC2.conf_24851
