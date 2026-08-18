@@ -24,6 +24,14 @@ PRODUCT_COPY_FILES += \
 # LiveDisplay
 $(call soong_config_set_bool,OPLUS_LINEAGE_LIVEDISPLAY_HAL,ENABLE_AF,true)
 
+# NFC
+PRODUCT_PACKAGES += \
+    NfcNci 
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/nfc/libnfc-tmsTransit.conf_24851:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-tmsTransit.conf_24851 \
+    $(LOCAL_PATH)/configs/nfc/init.thn31.nfc.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.thn31.nfc.rc
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
@@ -33,11 +41,6 @@ PRODUCT_PACKAGES += \
     OPlusSettingsProviderResTarget \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget
-
-# NFC
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/nfc/libnfc-tmsTransit.conf_24851:$(TARGET_COPY_OUT_ODM)/etc/nfc/libnfc-tmsTransit.conf_24851 \
-    $(LOCAL_PATH)/configs/nfc/init.thn31.nfc.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.thn31.nfc.rc
 
 # Power
 $(call soong_config_set,qtipower,mode_ext_lib,power-ext-oplus)
