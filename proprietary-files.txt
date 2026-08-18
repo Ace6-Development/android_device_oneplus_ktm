@@ -1218,6 +1218,15 @@ vendor/firmware/CAMERA_ICP_1.mbn
 vendor/firmware/CAMERA_ICP_1.mdt
 vendor/firmware/CAMERA_ICP_170.elf
 
+# EID
+odm/lib64/vendor.oplus.hardware.eid-V1-ndk.so
+odm/bin/hw/vendor.oplus.hardware.eid@1.0-service
+odm/etc/vintf/manifest/manifest_oplus_eid.xml
+odm/etc/init/vendor.oplus.hardware.eid@1.0-service.rc
+vendor/lib64/vendor.qti.esepowermanager@1.0.so
+odm/lib64/vendor.oplus.hardware.esepower-V1-ndk_platform.so
+odm/lib64/vendor.oplus.hardware.nfc.esepower@1.0.so
+
 # MSM Video
 vendor/firmware/vpu35_4v.mbn
 
@@ -1329,8 +1338,30 @@ odm/firmware/uff_spi.b07
 odm/firmware/uff_spi.b08
 odm/firmware/uff_spi.mdt
 
+# NFC
+odm/bin/hw/android.hardware.nfc-service-tms
+odm/etc/libnfc-nci.conf
+odm/etc/init/init.thn31.nfc.rc
+odm/etc/init/init.thn31.se.rc
+odm/etc/init/nfc-service-tms.rc
+odm/etc/nfc/libnfc-tms_RF_EC2.conf_24851
+odm/etc/nfc/libnfc-tms.conf_24851
+odm/etc/vintf/manifest/manifest_nfc_thn31_ese.xml
+odm/etc/vintf/manifest/manifest_nfc_thn31.xml
+odm/lib64/7816-3-T1.so
+odm/lib64/nfc_nci.thn31nfc.tms.so
+odm/lib64/vendor.tms.tmsnfc_aidl-V1-ndk.so
+
 # NFC firmware
-odm/etc/nfc/sn220u.bin_sn220tu_fw_01_01_45:vendor/firmware/sn220u.bin
+odm/etc/nfc/SEC_THN31_FW_VTP.txt.bin_thn31_fw_D1_1C_00
+odm/etc/nfc/tdt/thn31_tdt_freq.txt
+odm/etc/nfc/tdt/thn31_tdt_current.txt
+
+# Secure Element
+odm/bin/hw/android.hardware.secure_element-service-tms
+odm/etc/libese-tms.conf
+odm/etc/init/secure_element-service-tms.rc
+odm/lib64/vendor.tms.tmsese_aidl-V1-ndk.so
 
 # Sensors
 vendor/lib64/sensors.qsh.so
@@ -1357,6 +1388,14 @@ vendor/etc/sensors/config/qsh_camera_imx615_3.json
 vendor/etc/sensors/config/qsh_camera_imx688_6.json
 vendor/etc/sensors/config/qsh_camera_imx688_6_actuator.json
 vendor/etc/sensors/config/qsh_camera_ov32c4c_4.json
+
+# TMS (Tsingteng MicroSystems)
+odm/lib64/libtms_log_record.so
+odm/lib64/libtms_seimpl_tee.so
+odm/lib64/tms-cos-dl-common.so
+odm/lib64/tms-cos-dl-ree.so
+odm/lib64/tms-cos-dl-tee.so
+odm/lib64/tms-utils.so
 
 # Touch Service (HBP5)
 odm/bin/hw/vendor-oplus-hardware-touch-V2-hbp5-service
