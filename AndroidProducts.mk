@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ktm.mk
+    $(LOCAL_DIR)/infinity_ktm.mk
