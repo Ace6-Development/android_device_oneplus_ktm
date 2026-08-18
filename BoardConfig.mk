@@ -26,6 +26,7 @@ TARGET_KERNEL_ADDITIONAL_FLAGS += CONFIG_KTM_DTB=y
 
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/properties/odm.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/properties/system.prop
 TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/properties/system_ext.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
 
