@@ -49,6 +49,10 @@ PRODUCT_PACKAGES += \
 # Power
 $(call soong_config_set,qtipower,mode_ext_lib,power-ext-oplus)
 
+# Recovery
+PRODUCT_PACKAGES += \
+    hbp-setup 
+    
 # Regional properties
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24851/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/24851/build.default.prop 
