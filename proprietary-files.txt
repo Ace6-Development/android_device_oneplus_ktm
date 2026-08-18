@@ -20,7 +20,6 @@ odm/etc/audio/OcaiConfig.xml
 # Audio firmware
 odm/firmware/tfa98xx_t0.cnt
 odm/firmware/tfa98xx.cnt
-odm/lib64/libtfa98xx.so
 odm/lib/rfsa/adsp/libtfadsp_sb5_5_rx.so
 
 # Audio params
