@@ -10,10 +10,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from ktm device
 $(call inherit-product, device/oneplus/ktm/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common voltage stuff.
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_ktm
+PRODUCT_NAME := voltage_ktm
 PRODUCT_DEVICE := ktm
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -28,3 +28,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=PLQ110 \
     SystemDevice=OP6113L1 \
     SystemName=PLQ110
+    
+# Device attestation
+PRODUCT_MANUFACTURER_FOR_ATTESTATION := OnePlus
+PRODUCT_BRAND_FOR_ATTESTATION := OnePlus
+PRODUCT_DEVICE_FOR_ATTESTATION := ktm
+PRODUCT_NAME_FOR_ATTESTATION := OnePlus Ace 6
+PRODUCT_MODEL_FOR_ATTESTATION := PLQ110
