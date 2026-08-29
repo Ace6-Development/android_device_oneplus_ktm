@@ -67,6 +67,9 @@ PRODUCT_SOONG_NAMESPACES += \
 $(call soong_config_set_bool,OPLUS_LINEAGE_TOUCH_HAL,ENABLE_GM,true)
 $(call soong_config_set_bool,OPLUS_LINEAGE_TOUCH_HAL,ENABLE_HTPR,false)
 
+# Udfps
+TARGET_HAS_UDFPS := true
+
 # Vibrator
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service.oplus
