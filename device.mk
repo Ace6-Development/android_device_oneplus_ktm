@@ -67,6 +67,9 @@ $(call soong_config_set_bool,OPLUS_LINEAGE_TOUCH_HAL,ENABLE_GM,true)
 $(call soong_config_set,OPLUS_LINEAGE_TOUCH_HAL,HTPR_ENABLE_NODE,REPORT_RATE_NODE)
 $(call soong_config_set,OPLUS_LINEAGE_TOUCH_HAL,HTPR_ENABLE_VALUE,6)
 
+# Udfps
+TARGET_HAS_UDFPS := true
+
 # Vibrator
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service.oplus
