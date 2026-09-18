@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<compatibility-matrix version="9.0" type="framework">
+    <hal format="aidl" updatable-via-apex="true">
+        <name>android.hardware.nfc</name>
+        <version>1-2</version>
+        <interface>
+            <name>INfc</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.nfc</name>
+        <version>1.2</version>
+        <interface>
+            <name>INfc</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.oplus.hardware.nfc</name>
+        <version>1.0</version>
+        <interface>
+            <name>IOplusNfc</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.oplus.hardware.nfc</name>
+        <version>1-2</version>
+        <interface>
+            <name>IOplusNfc</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.oplus.hardware.nfcExtns</name>
+        <interface>
+            <name>INfcExtns</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.tms.tmsnfc</name>
+        <version>1.0</version>
+        <interface>
+            <name>ITmsNfc</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.tms.tmsnfc_aidl</name>
+        <interface>
+            <name>ITmsNfc</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.tms.tmsese_aidl</name>
+        <interface>
+            <name>ITmsEse</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+    	<name>vendor.tms.tmsese</name>
+	<version>1.0</version>
+        <interface>
+            <name>ITmsEse</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.oplus.hardware.eid</name>
+        <interface>
+            <name>IEidDevice</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</compatibility-matrix>
