@@ -18,5 +18,5 @@
     </string-array>
 
     <!-- Whether the device supports wireless charging or not -->
-    <bool name="config_deviceSupportsWirelessCharging">true</bool>
+    <bool name="config_deviceSupportsWirelessCharging">false</bool>
 </resources>
