@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus Ace 6 (PLQ110_16.0.3.502(CN01)).
+## are from OnePlus Ace 6 (PLQ110_16.0.10.500(CN01)).
 
 # ACDB
 odm/etc/acdbdata/acdb_cal.acdb:vendor/etc/acdbdata/sun_mtp/acdb_cal.acdb
@@ -1361,6 +1361,7 @@ vendor/lib64/sensors.qsh.so
 odm/etc/sensor/config/ktm_qrd_ois_system.json
 odm/etc/sensor/config/json_list
 odm/etc/sensor/config/lux_aod.json
+odm/etc/sensor/config/oplus_car_motion.json
 odm/etc/sensor/config/oplus_gyro_cal_0.json
 odm/etc/sensor/config/pakala_mtp_alsps.json
 odm/etc/sensor/config/pakala_mtp_alsps_hw_tcs3720.json
