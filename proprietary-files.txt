@@ -1518,6 +1518,9 @@ odm/firmware/uff_spi.b07
 odm/firmware/uff_spi.b08
 odm/firmware/uff_spi.mdt
 
+# Horae
+odm/etc/horae/horae_target.conf
+
 # NFC
 odm/bin/hw/android.hardware.nfc-service-tms
 odm/etc/init/init.thn31.se.rc
