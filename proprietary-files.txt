@@ -1496,6 +1496,15 @@ odm/firmware/uff_face.b07
 odm/firmware/uff_face.b08
 odm/firmware/uff_face.mdt
 
+# Dolby Vision
+odm/bin/hw/dvs-aidl-service
+odm/etc/dolby/display/dolby_vision.cfg
+odm/etc/dolby/dolby_vision.cfg
+odm/etc/init/dvs-aidl-service.rc
+odm/etc/vintf/manifest/dvs-aidl-service.xml
+odm/etc/media_codecs_dolby_vision.xml:vendor/etc/media_codecs_dolby_vision.xml
+odm/lib64/vendor.dolby.dvs-V1-ndk.so
+
 # Fingerprint firmware
 odm/firmware/uff_gx.b00
 odm/firmware/uff_gx.b01
