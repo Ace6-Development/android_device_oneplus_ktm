@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="plus_key_category_title">Plus key</string>
+    <string name="plus_key_action_title">Press action</string>
+    <string name="plus_key_action_default">Default (follow Search button settings)</string>
+    <string name="plus_key_action_ringer">Cycle ringer mode</string>
+</resources>

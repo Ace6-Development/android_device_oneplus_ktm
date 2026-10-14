@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string-array name="plus_key_action_entries" translatable="false">
+        <item>@string/plus_key_action_default</item>
+        <item>@string/action_torch</item>
+        <item>@string/plus_key_action_ringer</item>
+    </string-array>
+
+    <string-array name="plus_key_action_entry_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>
